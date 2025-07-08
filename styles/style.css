@@ -1,0 +1,219 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* common styles shared  */
+.text-primary {
+    color: #FD6E0A;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.dark-3 {
+    color: #757575;
+    margin-top: 30px;
+}
+
+.bg-primary {
+    background-color: #FFF8F3;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font-weight {
+    font-weight: 700;
+
+}
+
+/* header  */
+header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* navbar styles  */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 230px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+/* banner section  */
+.banner-container {
+    display: flex;
+    align-items: center;
+}
+
+.banner-container img {
+    width: 580px;
+    padding-right: 50px;
+}
+
+.banner-content {
+    width: 100%;
+    padding-left: 200px;
+}
+
+.banner {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.contact-btn {
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
+
+}
+
+/* main styles  */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section styles  */
+.about-section {
+    margin-top: 130px;
+    padding: 130px 150px;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* card styles  */
+.what-i-do-section {
+    margin-top: 130px;
+}
+
+.card-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.card {
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+/* summary section  */
+.summary-section {
+    margin-top: 130px;
+}
+
+.summary-container {
+    display: flex;
+    gap: 70px;
+    margin-top: 110px;
+    margin-bottom: 50px;
+}
+
+/* footer styles  */
+footer {
+    padding: 130px 230px;
+    margin-top: 110px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 110px;
+}
+
+.footer-colum {
+    width: 100%;
+}
+
+.input-form {
+    display: block;
+}
+
+.icon-img a {
+    margin-right: 24px;
+
+}
+
+.icon-img {
+    margin-top: 30px;
+}
+
+footer input[type="text"],
+input[type="email"] {
+    width: 100%;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 30px;
+}
+
+textarea {
+    width: 100%;
+    height: 180px;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 30px;
+}
+
+.submit-btn {
+    margin-top: 24px;
+}
